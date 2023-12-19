@@ -1,0 +1,52 @@
+.card-image{
+    width: 25vh;
+}
+/* .information{
+    display: flex;
+    flex-direction: row;
+}
+.cart-details{
+    display: flex;
+    flex-direction: row;
+} */
+
+.checkout-modal-list-item{
+    display: flex;
+    margin: 5px;
+
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.checkout-cart-details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 40vh;
+    h4{
+        text-wrap: balance;
+    }
+}
+.checkout-cart-addon{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+  
+    height: 4vh;
+}
+.checkout-modal-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.totalAmount{
+    display: flex;
+    
+}
