@@ -1,0 +1,17 @@
+.sub-container{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid white;
+    box-shadow: 4px 2px 2px 2px gainsboro;
+    
+  
+}
+li{
+    /* border: 1px solid bisque; */
+    padding: 10px;
+    cursor: pointer;
+}

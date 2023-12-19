@@ -1,0 +1,40 @@
+.card-image{
+    width: 25vh;
+}
+
+.display-item{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.AddToCart button{
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-weight:bold;
+   
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+.counter{
+    display: flex;
+    justify-content: space-around;
+}
+.card-price{
+    padding: 5px;
+}
